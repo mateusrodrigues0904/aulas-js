@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendendo JS</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="eventoClick()">onclick</button>
+    <button ondblclick="eventoDblclick()">ondblclick</button>
+    <div
+      id="elemento"
+      onmousemove="adicionaTexto()"
+      onmouseout="viraVermelho()"
+      onmouseover="viraAzul()"
+    ></div>
+    <p id="texto"></p>
+    <script src="js/index.js"></script>
+  </body>
+</html>
